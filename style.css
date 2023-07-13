@@ -1,0 +1,35 @@
+
+.bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40em;
+}
+.form{
+    border: 1px solid saddlebrown;
+    padding: 20px;
+    width: 30em;
+    height: 30em;
+    text-align: center;
+    background-color: bisque;
+}
+h1{
+    font-size: 40px;
+    /* padding-bottom: 30px; */
+}
+p{
+    text-align: left;
+    padding:10px 0px 0px 35px ;
+
+}
+.inp{
+    width: 80%;
+    padding: 10px;
+}
+#aa{
+    text-align: left;
+    padding:10px 0px 0px 35px ;
+}
+.notmem{
+    padding-top: 50px;
+}
