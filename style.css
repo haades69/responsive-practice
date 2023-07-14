@@ -17,7 +17,7 @@
     text-align: center;
     /* height: 390px; */
     /* width: 390px; */
-    box-shadow: 1px 1px 20px black;
+    box-shadow:0px  1px 20px rgb(88, 87, 87);
 } 
 .intro{background-color:rgb(255, 103, 154) ;
     text-align: center;
@@ -34,6 +34,7 @@
 }
 .form{
     border-radius:0px 15px 15px 0px;
+   
 }
 form{
     display: grid;
@@ -45,4 +46,48 @@ a{
 }
 .inp{
     padding: 5px;
+}
+
+
+
+@media screen and (max-width:576px) {
+    .container{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .intro{
+        padding: 40px 30px;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .form{
+        border-radius:0px 0px 15px 15px ;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .container{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .form ,.intro{
+        margin: 0px 50px  0px;
+    }
+    .intro{
+        
+        border-radius: 15px 15px 0px 0px;
+    }
+    .form{
+        border-radius:0px 0px 15px 15px ;
+    }
+
+}
+@media screen and (min-width:993px) and (max-width:1140px) {
+    .intro {
+        
+
+    }
 }
